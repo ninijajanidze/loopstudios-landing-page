@@ -1,0 +1,697 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,300;1,300&display=swap');
+
+body {
+    font-family: "Josefin Sans", "Alata", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.container {
+    width: 375px;
+}
+
+.header {
+    position: relative;
+    display: flex;
+}
+
+.hero-comp, .interactive-comp, .comp-menu, .creations-comp, .title, .info-comp  {
+    display: none;
+}
+
+.hero-mob {
+    width: 375px;
+    height: 650px;
+    position: absolute;
+}
+
+.content {
+    width: 375px;
+    z-index: 1;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 24px 163px 24px;
+}
+
+.logo-img {
+    width: 144px;
+    height: 24px; 
+}
+
+.hamburger {
+    width: 24px;
+    height: 16px;
+    align-self: center;
+}
+
+.frame {
+    width: 327px;
+    height: 196px;
+    margin: auto;
+    padding: 26px 24px 24px;
+    border: solid 2px #fff;
+}
+
+h1 {
+    width: 279px;
+    height: 146px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 0.95;
+    color: #fff;
+}
+
+.interactive-mob {
+    width: 327px;
+    height: 224px;
+    margin: 320px 24px 0;
+}
+
+.wrapper h2 {
+    width: 279px;
+    height: 64px;
+    margin:  auto;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    color: #000;
+    margin-top: 48px;
+}
+
+.wrapper p {
+    width: 279px;
+    height: 175px;
+    margin: auto;
+    opacity: 0.5;
+    font-family: Alata;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #000;  
+    margin-top: 16px;
+}
+
+.creations-mob h2 {
+    width: 279px;
+    height: 32px;
+    margin: auto;
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    color: #000;    
+    margin-top: 96px;
+    margin-bottom: 48px;
+}
+
+.creations-mob img {
+    width: 327px;
+    height: 120px;
+    margin: 0 24px;
+    position: absolute;
+}
+
+.earth, .arcade, .soccer, .grid, .above, .borealis, .curiosity, .fisheye {
+    position: relative;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.earth h2 {
+    z-index: 1;
+    width: 80px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;  
+    margin: 52px 227px 20px 44px;
+}
+
+.arcade h2 {
+    z-index: 1; 
+    width: 99px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;   
+    margin: 52px 208px 20px 44px;
+}
+
+.soccer h2 {
+    z-index: 1;
+    width: 108px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+    margin: 52px 199px 20px 44px;
+}
+
+.grid h2 {
+    z-index: 1;
+    width: 58px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+    margin: 52px 249px 20px 44px;
+}
+
+.above h2 {
+    z-index: 1;
+    width: 123px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+    margin: 52px 184px 20px 44px;
+}
+
+.borealis h2 {
+    z-index: 1;
+    width: 118px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+    margin: 52px 189px 20px 44px; 
+}
+
+.curiosity h2 {
+    z-index: 1;
+    width: 127px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+    margin: 52px 180px 20px 44px; 
+}
+
+.fisheye h2 {
+    z-index: 1;
+    width: 99px;
+    height: 48px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+    margin: 52px 208px 20px 44px; 
+}
+
+.mob-btn {
+    width: 157px;
+    height: 40px;
+    margin: 10px 109px 96px;
+    padding: 13px 43px 13px 38px;
+    border: solid 1px #000;
+    font-family: Alata;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 4px;
+    color: #000;
+}
+
+.info {
+    width: 375px;
+    height: 470px;
+    background-color: #000;
+}
+
+.logo-img-2 {
+    margin: 56px 115px 32px 116px;
+    width: 144px;
+    height: 24px;  
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.details h3 {
+    font-family: Alata;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 115px 16px 116px;
+}
+
+.twitter {
+    width: 24px;
+    height: 19.5px;
+    align-self: center;
+}
+
+span {
+    width: 272px;
+    margin:  0 51px 0 52px;
+    opacity: 0.5;
+    font-family: Alata;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;  
+}
+
+.mobile-menu {
+    width: 375px;
+    height: 667px;
+    position: absolute;
+    padding: 40px 26px 223px 24px;
+    background-color: #000;  
+    z-index: 2;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mob-logo {
+    width: 144px;
+    height: 24px;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+}
+
+ul {
+    margin-top: 159px;
+}
+
+li {
+    margin: 0 46px 24px 0;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+    color: #fff;
+}
+
+.mobile-menu {
+    margin-top: -1000px;
+}
+
+.full-menu {
+    margin-top: 0;
+}
+
+
+@media screen and (min-width:1440px) {
+    .hero-mob, .mobile-menu, .interactive-mob, .creations-mob, .logo, .info {
+        display: none;
+    }
+
+    .comp-menu, .hero-comp, .interactive-comp, .creations-comp, .info-comp {
+        display: block;
+    }
+
+    .container {
+        width: 1440px;
+    }
+    
+    .hero-comp {
+        width: 1440px;
+        height: 650px;
+        position: absolute;
+    }
+
+    .content {
+        width: 1440px;
+        height: 650px;
+        z-index: 1;
+    }
+    
+    .comp-menu {
+        display: flex;
+        position: absolute;
+        align-items: center;
+        margin: 64px 150px 0 165px;
+    }
+
+    .comp-logo {
+        width: 192px;
+        height: 32px;
+        margin-right: 538px;
+    }
+    
+    ul { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+
+    li {
+        margin: 0;
+        margin: 0 32px 0 0;
+        font-family: Alata;
+        font-size: 15px;
+        line-height: 25px;
+        color: #fff;
+        cursor: pointer;
+        position: relative;
+    }
+
+    li:hover::after {
+        content: "";
+        position: absolute;
+        left: 25%;
+        bottom: -8px;
+        width: 50%; 
+        height: 2px; 
+        background-color: #fff;;
+    }
+    
+    .frame {
+        width: 650px;
+        height: 278px;
+        margin: 226px 625px 146px 165px;
+        padding: 40px;
+        border: solid 2px #fff;
+    }
+    
+    h1 {
+        width: 570px;
+        height: 198px;
+        font-size: 72px;
+        line-height: 70px;
+    }
+
+    .interactive-comp {
+        width: 731px;
+        height: 500px;
+        margin: 160px 545px 184px 164px;
+    }
+
+    .wrapper {
+        display: flex;
+    }
+
+    .wrapper-text {
+        width: 541px;
+        height: 317px;
+        background-color: #fff;
+        margin: 343px 165px 0 -710px;
+    }
+    
+    .wrapper h2 {
+        width: 445px;
+        height: 96px;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: start;
+        margin: 96px 0 0 96px;
+    }
+    
+    .wrapper p {
+        width: 445px;
+        height: 100px;
+        text-align: start; 
+        margin: 25px 0 0 96px;
+    }
+    
+    .title h2 {
+        width: 445px;
+        height: 48px;
+        margin: 0;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: left;
+    }
+
+    .comp-btn {
+        width: 157px;
+        height: 40px;
+        padding: 13px 43px 13px 38px;
+        border: solid 1px #000;
+        font-family: Alata;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 4px;
+        color: #000;
+        cursor: pointer;
+    }
+
+    .comp-btn:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 162px 80px 164px;
+    }
+
+    .earth, .above, .borealis, .soccer, .fisheye, .arcade, .grid, .curiosity {
+        width: 256px;
+        height: 450px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .creations-comp {
+        margin: 0 162px 0 164px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;    
+        gap: 0 30px;
+    }
+
+    .common:hover::after {
+        content: "";
+        width: 256px;
+        height: 450px;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+
+    .common:hover>h2 {
+        color: #000000 !important;
+    }
+
+    .creations-comp h2 {
+       position: absolute;
+       margin: 354px 0 32px 40px;
+    }
+
+    .earth h2 {
+        width: 106px;
+        height: 64px;
+        font-size: 32px;
+    }
+    
+    .arcade h2 {
+        width: 132px;
+        height: 64px;
+        font-size: 32px;
+    }
+    
+    .soccer h2 {
+        width: 144px;
+        height: 64px;
+        font-size: 32px;
+    }
+    
+    .grid h2 {
+        width: 77px;
+        height: 64px;
+        font-size: 32px;
+    }
+    
+    .above h2 {
+        width: 164px;
+        height: 64px;
+        font-size: 32px;
+    }
+    
+    .borealis h2 {
+        width: 157px;
+        height: 64px;
+        font-size: 32px;
+    }
+    
+    .curiosity h2 {
+        width: 169px;
+        height: 64px;
+        font-size: 32px;
+    }
+    
+    .fisheye h2 {
+        width: 132px;
+        height: 64px;
+        font-size: 32px;
+    }
+
+    .info-comp {
+        width: 1440px;
+        height: 160px;
+        background-color: #000;
+        margin-top: 154px;
+    }
+    
+    .logo-img-2 {
+        margin: 0;
+        width: 144px;
+        height: 24px;  
+    }
+    
+    .details-comp {
+        display: flex;
+        margin: 0 0 0 165px;
+        justify-content: space-between;
+    }
+    
+    .details-comp h3 {
+        font-family: Alata;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: left;
+        color: #fff;
+        margin-right: 32px;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .details-comp h3:hover::after {
+        content: "";
+        position: absolute;
+        left: 25%;
+        bottom: -8px;
+        width: 50%; 
+        height: 2px; 
+        background-color: #fff;;
+    }
+
+    .detail {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .media-comp {
+        display: flex;
+        justify-content: space-between;
+        padding: 44px 170px 30px 165px;
+    }
+
+    .social-media {
+       margin: 0;
+    }
+
+    .facebook {
+        width: 24px;
+        height: 24px;
+        margin-right: 16px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .social-media {
+        display: flex;
+        position: relative;
+    }
+
+    .facebook-icon:hover::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        width: 18%; 
+        height: 2px; 
+        background-color: #fff;
+    }
+
+    .instagram {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .instagram-icon:hover::after {
+        content: "";
+        position: absolute;
+        left: 84%;
+        bottom: -8px;
+        width: 17%; 
+        height: 2px; 
+        background-color: #fff;
+    }
+
+    .pinterest {
+        width: 24px;
+        height: 24px;
+        margin-right: 16px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .pinterest-icon:hover::after {
+        content: "";
+        position: absolute;
+        left: 57%;
+        bottom: -8px;
+        width: 17%; 
+        height: 2px; 
+        background-color: #fff;
+    }
+
+    .twitter {
+       margin-top: 3px;
+       margin-right: 16px;
+       cursor: pointer;
+       position: relative;
+    }
+    
+    .twitter-icon:hover::after {
+        content: "";
+        position: absolute;
+        left: 29%;
+        bottom: -8px;
+        width: 15%; 
+        height: 2px; 
+        background-color: #fff;
+    }
+
+    span {
+        margin: 0 165px 0 0;
+    }
+}
